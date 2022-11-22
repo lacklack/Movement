@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using TMPro;
+using Q3Movement;
+using System;
+
+public class SpeedOMeter : MonoBehaviour
+{
+    TextMeshProUGUI speedometer;
+    Q3PlayerController player;
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        speedometer = GameObject.Find("Canvas/Speedometer").GetComponent<TextMeshProUGUI>();
+        player = GameObject.Find("FirstPersonController").GetComponent<Q3PlayerController>(); 
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        speedometer.text = Math.Round(player.Speed, 0).ToString();
+    }
+}
