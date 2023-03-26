@@ -44,6 +44,25 @@ namespace Q3Movement
         /// </summary>
         public float Speed { get { return m_Character.velocity.magnitude; } }
 
+        /// <summary>
+        /// Get and set the camera object.
+        /// </summary>
+        public Camera Camera {
+            get { return m_Camera; }
+            set { m_Camera = value; }
+        }
+
+        public MovementSettings GroundSettings {
+            get { return m_GroundSettings; }
+            set { m_GroundSettings = value; }
+        }
+
+        public Vector3 MoveInput {
+            get { return m_MoveInput; }
+            set { m_MoveInput = value; }
+        }
+
+
         private CharacterController m_Character;
         private Vector3 m_MoveDirectionNorm = Vector3.zero;
         private Vector3 m_PlayerVelocity = Vector3.zero;

@@ -973,7 +973,6 @@ GameObject:
   - component: {fileID: 1015572836}
   - component: {fileID: 1015572835}
   - component: {fileID: 1015572839}
-  - component: {fileID: 1015572840}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1080,21 +1079,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerModeButton: {fileID: 1925842084}
---- !u!114 &1015572840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1015572834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30631051a4aea5a419198691edb5b4f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tipText: {fileID: 1889133018}
-  tipWindow: {fileID: 666495858}
-  element: {fileID: 0}
 --- !u!1 &1500216553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,7 +1226,6 @@ GameObject:
   - component: {fileID: 1751494856}
   - component: {fileID: 1751494855}
   - component: {fileID: 1751494854}
-  - component: {fileID: 1751494857}
   m_Layer: 5
   m_Name: StoryModeButton
   m_TagString: Untagged
@@ -1365,19 +1348,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751494852}
   m_CullTransparentMesh: 1
---- !u!114 &1751494857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1751494852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f75e64f7f47cb44eb150981c116c9ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tipMessage: 11111111111111111111111111111111111111111111111111111
 --- !u!1 &1883550246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,7 +1630,6 @@ GameObject:
   - component: {fileID: 1925842086}
   - component: {fileID: 1925842085}
   - component: {fileID: 1925842084}
-  - component: {fileID: 1925842087}
   m_Layer: 5
   m_Name: TimerModeButton
   m_TagString: Untagged
@@ -1771,16 +1740,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925842082}
   m_CullTransparentMesh: 1
---- !u!114 &1925842087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925842082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f75e64f7f47cb44eb150981c116c9ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tipMessage: Available after completing Story Mode
