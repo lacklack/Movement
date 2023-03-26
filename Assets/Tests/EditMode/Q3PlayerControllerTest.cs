@@ -21,5 +21,18 @@ public class Q3PlayerControllerTests {
         Object.DestroyImmediate(playerObject);
     }
 
-    // Add test methods here
+    [Test]
+    public void MoveForward_WhenCalled_ChangesPlayerPosition() {
+        // Arrange
+        float initialZPosition = playerObject.transform.position.z;
+        playerController.GroundSettings = new Q3PlayerController.MovementSettings(1, 1, 1);
+
+        // Act
+        playerController.m_MoveInput = new Vector3(0, 0, 1);
+        playerController.GroundMove();
+
+        // Assert
+        float finalZPosition = playerObject.transform.position.z;
+        Assert.Greater(finalZPosition, initialZPosition);
+    }
 }
