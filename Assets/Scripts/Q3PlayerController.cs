@@ -279,5 +279,15 @@ namespace Q3Movement
             m_PlayerVelocity.x += accelspeed * targetDir.x;
             m_PlayerVelocity.z += accelspeed * targetDir.z;
         }
+
+        private void OnControllerColliderHit(ControllerColliderHit hit) {
+            if (m_Character.isGrounded) {
+                return;
+            }
+
+            if (Vector3.Dot(hit.normal, Vector3.up) < 0.5f) {
+                m_PlayerVelocity = Vector3.ProjectOnPlane(m_PlayerVelocity, hit.normal);
+            }
+        }
     }
 }
