@@ -44,6 +44,25 @@ namespace Q3Movement
         /// </summary>
         public float Speed { get { return m_Character.velocity.magnitude; } }
 
+        /// <summary>
+        /// Get and set the camera object.
+        /// </summary>
+        public Camera Camera {
+            get { return m_Camera; }
+            set { m_Camera = value; }
+        }
+
+        public MovementSettings GroundSettings {
+            get { return m_GroundSettings; }
+            set { m_GroundSettings = value; }
+        }
+
+        public Vector3 MoveInput {
+            get { return m_MoveInput; }
+            set { m_MoveInput = value; }
+        }
+
+
         private CharacterController m_Character;
         private Vector3 m_MoveDirectionNorm = Vector3.zero;
         private Vector3 m_PlayerVelocity = Vector3.zero;
@@ -278,6 +297,16 @@ namespace Q3Movement
 
             m_PlayerVelocity.x += accelspeed * targetDir.x;
             m_PlayerVelocity.z += accelspeed * targetDir.z;
+        }
+
+        private void OnControllerColliderHit(ControllerColliderHit hit) {
+            if (m_Character.isGrounded) {
+                return;
+            }
+
+            if (Vector3.Dot(hit.normal, Vector3.up) < 0.5f) {
+                m_PlayerVelocity = Vector3.ProjectOnPlane(m_PlayerVelocity, hit.normal);
+            }
         }
     }
 }
