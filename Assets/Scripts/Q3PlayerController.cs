@@ -1,22 +1,16 @@
 using UnityEngine;
 
-namespace Q3Movement
-{
-    /// <summary>
-    /// This script handles player movement logic.
-    /// </summary>
+namespace Q3Movement {
+
     [RequireComponent(typeof(CharacterController))]
-    public class Q3PlayerController : MonoBehaviour
-    {
+    public class Q3PlayerController : MonoBehaviour {
         [System.Serializable]
-        public class MovementSettings
-        {
+        public class MovementSettings {
             public float MaxSpeed;
             public float Acceleration;
             public float Deceleration;
 
-            public MovementSettings(float maxSpeed, float accel, float decel)
-            {
+            public MovementSettings(float maxSpeed, float accel, float decel) {
                 MaxSpeed = maxSpeed;
                 Acceleration = accel;
                 Deceleration = decel;
@@ -39,46 +33,23 @@ namespace Q3Movement
         [SerializeField] private MovementSettings m_AirSettings = new MovementSettings(7, 2, 2);
         [SerializeField] private MovementSettings m_StrafeSettings = new MovementSettings(1, 50, 50);
 
-        /// <summary>
-        /// Returns player's current speed.
-        /// </summary>
         public float Speed { get { return m_Character.velocity.magnitude; } }
-
-        /// <summary>
-        /// Get and set the camera object.
-        /// </summary>
-        public Camera Camera {
-            get { return m_Camera; }
-            set { m_Camera = value; }
+        public IInputProvider InputProvider {
+            get { return m_InputProvider; }
+            set { m_InputProvider = value; }
         }
-
-        public MovementSettings GroundSettings {
-            get { return m_GroundSettings; }
-            set { m_GroundSettings = value; }
-        }
-
-        public Vector3 MoveInput {
-            get { return m_MoveInput; }
-            set { m_MoveInput = value; }
-        }
-
 
         private CharacterController m_Character;
         private Vector3 m_MoveDirectionNorm = Vector3.zero;
         private Vector3 m_PlayerVelocity = Vector3.zero;
-
-        // Used to queue the next jump just before hitting the ground.
         private bool m_JumpQueued = false;
-
-        // Used to display real time friction values.
         private float m_PlayerFriction = 0;
-
         private Vector3 m_MoveInput;
         private Transform m_Tran;
         private Transform m_CamTran;
+        private IInputProvider m_InputProvider;
 
-        private void Start()
-        {
+        private void Start() {
             m_Tran = transform;
             m_Character = GetComponent<CharacterController>();
 
@@ -87,54 +58,45 @@ namespace Q3Movement
 
             m_CamTran = m_Camera.transform;
             m_MouseLook.Init(m_Tran, m_CamTran);
-        }
 
-        private void Update()
-        {
-            m_MoveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
+        }
+        public void UpdatePlayerState() {
+            m_MoveInput = new Vector3(m_InputProvider.GetMovementInput().x, 0, m_InputProvider.GetMovementInput().y);
             m_MouseLook.UpdateCursorLock();
             QueueJump();
 
-            // Set movement state.
-            if (m_Character.isGrounded)
-            {
+            if (m_Character.isGrounded) {
                 GroundMove();
             }
-            else
-            {
+            else {
                 AirMove();
             }
 
-            // Rotate the character and camera.
             m_MouseLook.LookRotation(m_Tran, m_CamTran);
-
-            // Move the character.
             m_Character.Move(m_PlayerVelocity * Time.deltaTime);
         }
 
-        // Queues the next jump.
-        private void QueueJump()
-        {
-            if (m_AutoBunnyHop)
-            {
+        private void Update() {
+            UpdatePlayerState();
+        }
+
+        private void QueueJump() {
+            if (m_AutoBunnyHop) {
                 m_JumpQueued = Input.GetButton("Jump");
                 return;
             }
 
-            if (Input.GetButtonDown("Jump") && !m_JumpQueued)
-            {
+            if (Input.GetButtonDown("Jump") && !m_JumpQueued) {
                 m_JumpQueued = true;
             }
 
-            if (Input.GetButtonUp("Jump"))
-            {
+            if (Input.GetButtonUp("Jump")) {
                 m_JumpQueued = false;
             }
         }
 
         // Handle air movement.
-        private void AirMove()
-        {
+        private void AirMove() {
             float accel;
 
             var wishdir = new Vector3(m_MoveInput.x, 0, m_MoveInput.z);
@@ -148,20 +110,16 @@ namespace Q3Movement
 
             // CPM Air control.
             float wishspeed2 = wishspeed;
-            if (Vector3.Dot(m_PlayerVelocity, wishdir) < 0)
-            {
+            if (Vector3.Dot(m_PlayerVelocity, wishdir) < 0) {
                 accel = m_AirSettings.Deceleration;
             }
-            else
-            {
+            else {
                 accel = m_AirSettings.Acceleration;
             }
 
             // If the player is ONLY strafing left or right
-            if (m_MoveInput.z == 0 && m_MoveInput.x != 0)
-            {
-                if (wishspeed > m_StrafeSettings.MaxSpeed)
-                {
+            if (m_MoveInput.z == 0 && m_MoveInput.x != 0) {
+                if (wishspeed > m_StrafeSettings.MaxSpeed) {
                     wishspeed = m_StrafeSettings.MaxSpeed;
                 }
 
@@ -169,8 +127,7 @@ namespace Q3Movement
             }
 
             Accelerate(wishdir, wishspeed, accel);
-            if (m_AirControl > 0)
-            {
+            if (m_AirControl > 0) {
                 AirControl(wishdir, wishspeed2);
             }
 
@@ -180,11 +137,9 @@ namespace Q3Movement
 
         // Air control occurs when the player is in the air, it allows players to move side 
         // to side much faster rather than being 'sluggish' when it comes to cornering.
-        private void AirControl(Vector3 targetDir, float targetSpeed)
-        {
+        private void AirControl(Vector3 targetDir, float targetSpeed) {
             // Only control air movement when moving forward or backward.
-            if (Mathf.Abs(m_MoveInput.z) < 0.001 || Mathf.Abs(targetSpeed) < 0.001)
-            {
+            if (Mathf.Abs(m_MoveInput.z) < 0.001 || Mathf.Abs(targetSpeed) < 0.001) {
                 return;
             }
 
@@ -199,8 +154,7 @@ namespace Q3Movement
             k *= m_AirControl * dot * dot * Time.deltaTime;
 
             // Change direction while slowing down.
-            if (dot > 0)
-            {
+            if (dot > 0) {
                 m_PlayerVelocity.x *= speed + targetDir.x * k;
                 m_PlayerVelocity.y *= speed + targetDir.y * k;
                 m_PlayerVelocity.z *= speed + targetDir.z * k;
@@ -215,15 +169,12 @@ namespace Q3Movement
         }
 
         // Handle ground movement.
-        private void GroundMove()
-        {
+        internal void GroundMove() {
             // Do not apply friction if the player is queueing up the next jump
-            if (!m_JumpQueued)
-            {
+            if (!m_JumpQueued) {
                 ApplyFriction(1.0f);
             }
-            else
-            {
+            else {
                 ApplyFriction(0);
             }
 
@@ -240,15 +191,13 @@ namespace Q3Movement
             // Reset the gravity velocity
             m_PlayerVelocity.y = -m_Gravity * Time.deltaTime;
 
-            if (m_JumpQueued)
-            {
+            if (m_JumpQueued) {
                 m_PlayerVelocity.y = m_JumpForce;
                 m_JumpQueued = false;
             }
         }
 
-        private void ApplyFriction(float t)
-        {
+        private void ApplyFriction(float t) {
             // Equivalent to VectorCopy();
             Vector3 vec = m_PlayerVelocity;
             vec.y = 0;
@@ -256,21 +205,18 @@ namespace Q3Movement
             float drop = 0;
 
             // Only apply friction when grounded.
-            if (m_Character.isGrounded)
-            {
+            if (m_Character.isGrounded) {
                 float control = speed < m_GroundSettings.Deceleration ? m_GroundSettings.Deceleration : speed;
                 drop = control * m_Friction * Time.deltaTime * t;
             }
 
             float newSpeed = speed - drop;
             m_PlayerFriction = newSpeed;
-            if (newSpeed < 0)
-            {
+            if (newSpeed < 0) {
                 newSpeed = 0;
             }
 
-            if (speed > 0)
-            {
+            if (speed > 0) {
                 newSpeed /= speed;
             }
 
@@ -280,18 +226,15 @@ namespace Q3Movement
         }
 
         // Calculates acceleration based on desired speed and direction.
-        private void Accelerate(Vector3 targetDir, float targetSpeed, float accel)
-        {
+        private void Accelerate(Vector3 targetDir, float targetSpeed, float accel) {
             float currentspeed = Vector3.Dot(m_PlayerVelocity, targetDir);
             float addspeed = targetSpeed - currentspeed;
-            if (addspeed <= 0)
-            {
+            if (addspeed <= 0) {
                 return;
             }
 
             float accelspeed = accel * Time.deltaTime * targetSpeed;
-            if (accelspeed > addspeed)
-            {
+            if (accelspeed > addspeed) {
                 accelspeed = addspeed;
             }
 
