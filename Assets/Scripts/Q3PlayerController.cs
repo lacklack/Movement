@@ -59,9 +59,15 @@ namespace Q3Movement {
             m_CamTran = m_Camera.transform;
             m_MouseLook.Init(m_Tran, m_CamTran);
 
+            // Move the initialization of m_InputProvider outside the if block
+            if (m_InputProvider == null) {
+                m_InputProvider = new UnityInputProvider();
+            }
         }
-        public void UpdatePlayerState() {
+
+        private void Update() {
             m_MoveInput = new Vector3(m_InputProvider.GetMovementInput().x, 0, m_InputProvider.GetMovementInput().y);
+            Debug.Log("GetMovementInput" + m_InputProvider.GetMovementInput());
             m_MouseLook.UpdateCursorLock();
             QueueJump();
 
@@ -73,24 +79,20 @@ namespace Q3Movement {
             }
 
             m_MouseLook.LookRotation(m_Tran, m_CamTran);
-            m_Character.Move(m_PlayerVelocity * Time.deltaTime);
-        }
-
-        private void Update() {
-            UpdatePlayerState();
+            m_Character.Move(m_PlayerVelocity * InputProvider.GetDeltaTime());
         }
 
         private void QueueJump() {
             if (m_AutoBunnyHop) {
-                m_JumpQueued = Input.GetButton("Jump");
+                m_JumpQueued = m_InputProvider.GetJumpButton();
                 return;
             }
 
-            if (Input.GetButtonDown("Jump") && !m_JumpQueued) {
+            if (m_InputProvider.GetJumpButtonDown() && !m_JumpQueued) {
                 m_JumpQueued = true;
             }
 
-            if (Input.GetButtonUp("Jump")) {
+            else {
                 m_JumpQueued = false;
             }
         }
@@ -132,7 +134,7 @@ namespace Q3Movement {
             }
 
             // Apply gravity
-            m_PlayerVelocity.y -= m_Gravity * Time.deltaTime;
+            m_PlayerVelocity.y -= m_Gravity * InputProvider.GetDeltaTime();
         }
 
         // Air control occurs when the player is in the air, it allows players to move side 
@@ -151,7 +153,7 @@ namespace Q3Movement {
 
             float dot = Vector3.Dot(m_PlayerVelocity, targetDir);
             float k = 32;
-            k *= m_AirControl * dot * dot * Time.deltaTime;
+            k *= m_AirControl * dot * dot * InputProvider.GetDeltaTime();
 
             // Change direction while slowing down.
             if (dot > 0) {
@@ -189,7 +191,7 @@ namespace Q3Movement {
             Accelerate(wishdir, wishspeed, m_GroundSettings.Acceleration);
 
             // Reset the gravity velocity
-            m_PlayerVelocity.y = -m_Gravity * Time.deltaTime;
+            m_PlayerVelocity.y = -m_Gravity * InputProvider.GetDeltaTime();
 
             if (m_JumpQueued) {
                 m_PlayerVelocity.y = m_JumpForce;
@@ -207,7 +209,7 @@ namespace Q3Movement {
             // Only apply friction when grounded.
             if (m_Character.isGrounded) {
                 float control = speed < m_GroundSettings.Deceleration ? m_GroundSettings.Deceleration : speed;
-                drop = control * m_Friction * Time.deltaTime * t;
+                drop = control * m_Friction * InputProvider.GetDeltaTime() * t;
             }
 
             float newSpeed = speed - drop;
@@ -233,7 +235,7 @@ namespace Q3Movement {
                 return;
             }
 
-            float accelspeed = accel * Time.deltaTime * targetSpeed;
+            float accelspeed = accel * InputProvider.GetDeltaTime() * targetSpeed;
             if (accelspeed > addspeed) {
                 accelspeed = addspeed;
             }
