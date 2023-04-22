@@ -2,9 +2,8 @@
     "name": "EditMode",
     "rootNamespace": "",
     "references": [
-        "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner",
-        "Scripts"
+        "Scripts",
+        "UnityEditor.TestRunner"
     ],
     "includePlatforms": [
         "Editor"

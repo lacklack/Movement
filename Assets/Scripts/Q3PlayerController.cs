@@ -4,18 +4,6 @@ namespace Q3Movement {
 
     [RequireComponent(typeof(CharacterController))]
     public class Q3PlayerController : MonoBehaviour {
-        [System.Serializable]
-        public class MovementSettings {
-            public float MaxSpeed;
-            public float Acceleration;
-            public float Deceleration;
-
-            public MovementSettings(float maxSpeed, float accel, float decel) {
-                MaxSpeed = maxSpeed;
-                Acceleration = accel;
-                Deceleration = decel;
-            }
-        }
 
         [Header("Aiming")]
         [SerializeField] private Camera m_Camera;
@@ -34,22 +22,34 @@ namespace Q3Movement {
         [SerializeField] private MovementSettings m_StrafeSettings = new MovementSettings(1, 50, 50);
 
         public float Speed { get { return m_Character.velocity.magnitude; } }
+        public float MaxAirSpeed { get { return m_AirSettings.MaxSpeed; } }
+        public float MaxGroundSpeed { get { return m_GroundSettings.MaxSpeed; } }
+
         public IInputProvider InputProvider {
             get { return m_InputProvider; }
             set { m_InputProvider = value; }
         }
 
-        private CharacterController m_Character;
-        private Vector3 m_MoveDirectionNorm = Vector3.zero;
-        private Vector3 m_PlayerVelocity = Vector3.zero;
-        private bool m_JumpQueued = false;
-        private float m_PlayerFriction = 0;
-        private Vector3 m_MoveInput;
-        private Transform m_Tran;
-        private Transform m_CamTran;
-        private IInputProvider m_InputProvider;
+        public void HandleInput() {
+            m_MoveInput = new Vector3(m_InputProvider.GetMovementInput().x, 0, m_InputProvider.GetMovementInput().y);
+            Debug.Log("GetMovementInput" + m_InputProvider.GetMovementInput());
+            m_MouseLook.UpdateCursorLock();
+            QueueJump();
+            if (m_Character.isGrounded) {
+                Debug.Log("GroundMove");
+                GroundMove();
+            }
+            else {
+                Debug.Log("AirMove");
+                AirMove();
+            }
 
-        private void Start() {
+            m_MouseLook.LookRotation(m_Tran, m_CamTran);
+            m_Character.Move(m_PlayerVelocity * InputProvider.GetDeltaTime());
+            Debug.Log(m_PlayerVelocity);
+        }
+
+        public void SetUpController() {
             m_Tran = transform;
             m_Character = GetComponent<CharacterController>();
 
@@ -59,27 +59,27 @@ namespace Q3Movement {
             m_CamTran = m_Camera.transform;
             m_MouseLook.Init(m_Tran, m_CamTran);
 
-            // Move the initialization of m_InputProvider outside the if block
             if (m_InputProvider == null) {
                 m_InputProvider = new UnityInputProvider();
             }
         }
 
+        private CharacterController m_Character;
+        private Vector3 m_MoveDirectionNorm = Vector3.zero;
+        public Vector3 m_PlayerVelocity = Vector3.zero;
+        private bool m_JumpQueued = false;
+        private float m_PlayerFriction = 0;
+        private Vector3 m_MoveInput;
+        private Transform m_Tran;
+        private Transform m_CamTran;
+        private IInputProvider m_InputProvider;
+
+        private void Start() {
+            SetUpController();
+        }
+
         private void Update() {
-            m_MoveInput = new Vector3(m_InputProvider.GetMovementInput().x, 0, m_InputProvider.GetMovementInput().y);
-            Debug.Log("GetMovementInput" + m_InputProvider.GetMovementInput());
-            m_MouseLook.UpdateCursorLock();
-            QueueJump();
-
-            if (m_Character.isGrounded) {
-                GroundMove();
-            }
-            else {
-                AirMove();
-            }
-
-            m_MouseLook.LookRotation(m_Tran, m_CamTran);
-            m_Character.Move(m_PlayerVelocity * InputProvider.GetDeltaTime());
+            HandleInput();
         }
 
         private void QueueJump() {

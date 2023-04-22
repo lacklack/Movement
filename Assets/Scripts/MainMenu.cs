@@ -8,27 +8,9 @@ public class MainMenu : MonoBehaviour
 {
     public Button timerModeButton;
 
-    // timermode jeenleg letiltva
-    public void timerModeEnable()
-    {
-        timerModeButton.interactable = false;
-    }
-
-    private void Start()
-    {
-        timerModeEnable();
-    }
-
-    // jövõben: ha elsõ indítás akk kérdés: szeretnél tutorialt? ha ja akk tutorial ha nem akk sztori 1. pálya
     public void LoadStoryMode()
     {
         SceneManager.LoadScene("Tutorial");
-    }
-
-    // csak sztori mod kijatszasa utan elerheto
-    public void LoadTimerMode()
-    {
-
     }
 
     public void LoadSettings()
@@ -36,8 +18,8 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Settings");
     }
 
-    public void LoadProfile()
+    public void LoadMainMenu() 
     {
-        SceneManager.LoadScene("Profile");
+        SceneManager.LoadScene("MainMenu");
     }
 }

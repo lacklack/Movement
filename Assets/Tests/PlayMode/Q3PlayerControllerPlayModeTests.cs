@@ -21,30 +21,12 @@ public class Q3PlayerControllerPlayModeTests {
         var cameraGameObject = new GameObject("Camera");
         var cameraComponent = cameraGameObject.AddComponent<Camera>();
         cameraComponent.tag = "MainCamera";
-        //GameObject groundObject = GameObject.CreatePrimitive(PrimitiveType.Plane);
-        //groundObject.transform.position = new Vector3(0, 0.0f, 0);
-        playerGameObject.transform.rotation = new Quaternion(0, 0, 0, 0);
     }
 
     [TearDown]
     public void Teardown() {
         Object.DestroyImmediate(playerGameObject);
     }
-
-    /*
-    [UnityTest]
-    public IEnumerator Q3PlayerController_JumpTest() {
-        Vector3 initialPosition = playerGameObject.transform.position;
-        playerController.InputProvider.GetJumpButtonDown().Returns(true);
-        playerController.InputProvider.GetDesltaTime().Returns(5);
-        yield return new WaitForSeconds(5);
-
-        // Check if the player's position has changed positively in the y direction
-        Vector3 finalPosition = playerGameObject.transform.position;
-        Debug.Log("Final:" + finalPosition + " Start pos:" + initialPosition);
-        Assert.Greater(finalPosition.y, initialPosition.y);
-    }
-    */
 
     [UnityTest]
     public IEnumerator Q3PlayerController_MoveRightTest() {
@@ -55,7 +37,7 @@ public class Q3PlayerControllerPlayModeTests {
         yield return null;
         yield return null;
 
-        // Check if the player's position has changed positively in the y direction
+        // Megnezzuk, hogy a jatekos poziciojat pozitivan valtozott-e az y iranyban
         Vector3 finalPosition = playerGameObject.transform.position;
         Debug.Log("Final:" + finalPosition + " Start pos:" + initialPosition);
         Assert.Greater(finalPosition.x, initialPosition.x);
@@ -106,5 +88,17 @@ public class Q3PlayerControllerPlayModeTests {
         Assert.Greater(initialPosition.z, finalPosition.z);
     }
 
+    [UnityTest]
+    public IEnumerator Q3PlayerController_GravityTest() {
+        Vector3 initialPosition = playerGameObject.transform.position;
+        playerController.InputProvider.GetDeltaTime().Returns(0.0167f);
 
+        yield return null;
+        yield return null;
+
+        // Check if the player's position has changed negatively in the z direction
+        Vector3 finalPosition = playerGameObject.transform.position;
+        Debug.Log("Final:" + finalPosition + " Start pos:" + initialPosition);
+        Assert.Greater(initialPosition.y, finalPosition.y);
+    }
 }
