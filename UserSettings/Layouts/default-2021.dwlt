@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 123
+  controlID: 136
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 124
+  controlID: 137
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,11 +165,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1475
-    height: 498
+    height: 332
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 125
+  controlID: 138
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,10 +187,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 507
-    height: 498
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 528
+    height: 332
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -211,10 +211,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 507
+    x: 528
     y: 0
-    width: 968
-    height: 498
+    width: 947
+    height: 332
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -239,9 +239,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 498
+    y: 332
     width: 1475
-    height: 449
+    height: 615
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 18}
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 227
+  controlID: 78
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,8 +294,8 @@ MonoBehaviour:
     y: 0
     width: 445
     height: 374
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -320,8 +320,8 @@ MonoBehaviour:
     y: 374
     width: 445
     height: 573
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -348,9 +348,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 571
+    y: 556
     width: 1474
-    height: 428
+    height: 443
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -377,8 +377,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 506
-    height: 477
+    width: 527
+    height: 311
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -386,23 +386,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ea640000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0ee3ffff5ee3fffffce4fffffce6ffff4ce7ffffeae8ffff34e9ffff84e9ffffeaeaffff66ecffffb6ecffff0eeeffff58eeffffa8eeffff00f0ffff0af4ffff5af4ffffc0f5ffff1af6ffff6af6ffffd2f7ffff24f8ffff74f8ffffe0f9ffffaefaffff5a640000
+      m_ExpandedIDs: 228cffff928cfffff48cffff448dffffaa94ffff5cc3ffff40c4ffff60caffff78caffff2ed6ffff52d6ffff2ef0ffff4af0ffffa0f0ffff36fbffff7860000052610000946200002c6300004e630000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Directional Light
+        m_OriginalName: Directional Light
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 25382
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -432,10 +432,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 507
+    x: 528
     y: 73
-    width: 966
-    height: 477
+    width: 945
+    height: 311
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -632,14 +632,14 @@ MonoBehaviour:
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 530.4031, y: 219.92279, z: -43.698483}
+    m_Target: {x: 0.7838099, y: 8.81352, z: -41.7886}
     speed: 2
-    m_Value: {x: 530.4031, y: 219.92279, z: -43.698483}
+    m_Value: {x: 0.7838099, y: 8.81352, z: -41.7886}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -668,17 +668,17 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -686,17 +686,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.14384016, y: -0.19690786, z: 0.029218633, w: -0.96937436}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.14383994, y: -0.19690756, z: 0.029218588, w: -0.96937287}
   m_Size:
-    m_Target: 315.31033
+    m_Target: 2.2954297
     speed: 2
-    m_Value: 315.31033
+    m_Value: 2.2954297
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1.0204899
     m_SpeedNormalized: 0.51
@@ -737,10 +737,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 507
+    x: 482
     y: 73
-    width: 966
-    height: 477
+    width: 991
+    height: 311
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -751,7 +751,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 966, y: 456}
+  m_TargetSize: {x: 991, y: 290}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -766,10 +766,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -483
-    m_HBaseRangeMax: 483
-    m_VBaseRangeMin: -228
-    m_VBaseRangeMax: 228
+    m_HBaseRangeMin: -495.5
+    m_HBaseRangeMax: 495.5
+    m_VBaseRangeMin: -145
+    m_VBaseRangeMax: 145
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -787,23 +787,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 966
-      height: 456
+      width: 991
+      height: 290
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 483, y: 228}
+    m_Translation: {x: 495.5, y: 145}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -483
-      y: -228
-      width: 966
-      height: 456
+      x: -495.5
+      y: -145
+      width: 991
+      height: 290
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 966, y: 477}
+  m_LastWindowPixelSize: {x: 991, y: 311}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -830,9 +830,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 571
+    y: 405
     width: 1474
-    height: 428
+    height: 594
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -863,9 +863,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: dc640000
-    m_LastClickedID: 25820
-    m_ExpandedIDs: 00000000285d00002a5d000000ca9a3bffffff7f
+    m_SelectedIDs: 2a5f0000
+    m_LastClickedID: 24362
+    m_ExpandedIDs: 00000000165f0000185f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -893,7 +893,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000285d000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000165f0000185f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1019,15 +1019,15 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 291
-    splitterInitialOffset: 198
+    ID: 158
+    splitterInitialOffset: 306
     currentActiveSplitter: -1
     realSizes:
-    - 131
-    - 351
+    - 236
+    - 246
     relativeSizes:
-    - 0.27178425
-    - 0.72821575
+    - 0.48962656
+    - 0.5103735
     minSizes:
     - 32
     - 32
@@ -1042,7 +1042,7 @@ MonoBehaviour:
     oldMinSizes: 
     oldMaxSizes: 
     oldSplitSize: 0
-  m_TestTypeToolbarIndex: 0
+  m_TestTypeToolbarIndex: 1
   m_PlayModeTestListGUI:
     m_Window: {fileID: 20}
     m_NewResultList:
@@ -1051,7 +1051,7 @@ MonoBehaviour:
       name: Movement
       fullName: Movement
       resultStatus: 1
-      duration: 0.2263918
+      duration: 2.6446478
       messages: 
       output: 
       stacktrace: 
@@ -1067,7 +1067,7 @@ MonoBehaviour:
       name: GeneratedTests.dll
       fullName: C:/Users/QUAKE LIVE/Documents/Movement-main/Library/ScriptAssemblies/GeneratedTests.dll
       resultStatus: 1
-      duration: 2.2842233
+      duration: 2.3314683
       messages: 
       output: 
       stacktrace: 
@@ -1083,7 +1083,7 @@ MonoBehaviour:
       name: GeneratedAutomationTests
       fullName: GeneratedAutomationTests
       resultStatus: 1
-      duration: 2.2796023
+      duration: 2.3242652
       messages: 
       output: 
       stacktrace: 
@@ -1099,7 +1099,7 @@ MonoBehaviour:
       name: Tests_recording_2023_04_17_T19_49_41
       fullName: GeneratedAutomationTests.Tests_recording_2023_04_17_T19_49_41
       resultStatus: 1
-      duration: 2.2777526
+      duration: 2.3193955
       messages: 
       output: 
       stacktrace: 
@@ -1115,7 +1115,7 @@ MonoBehaviour:
       name: CanPlayToEnd
       fullName: GeneratedAutomationTests.Tests_recording_2023_04_17_T19_49_41.CanPlayToEnd
       resultStatus: 1
-      duration: 2.2681572
+      duration: 2.3104935
       messages: 
       output: 'AQA: Using RecordedPlaybackPersistentData - kRecordedPlaybackFilename:
         playback_recording.json
@@ -1130,3835 +1130,9313 @@ MonoBehaviour:
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.68, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -1.37, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -1.77, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -1.81, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -1.85, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -1.88, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -1.91, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -1.94, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -1.97, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -1.99, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.03, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.06, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.09, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.12, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.14, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.17, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.20, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.23, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.26, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.29, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.31, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.34, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.37, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.41, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.44, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.46, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.49, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.52, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.56, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.59, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.61, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.65, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.70, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.73, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.75, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -2.78, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.04, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.08, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.10, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.13, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.16, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.19, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.22, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.25, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.28, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.31, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.34, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.36, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.39, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.41, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.44, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.47, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.49, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.51, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.58, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.03, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.07, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.10, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.13, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.16, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.18, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.21, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.24, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.26, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.29, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.32, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.34, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.37, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.39, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.42, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.45, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.48, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.50, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.53, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.56, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.59, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.62, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.65, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.67, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.70, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.73, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.76, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.04, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.07, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.11, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.14, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.16, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.19, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.22, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.25, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.27, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.30, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.32, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.36, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.38, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.40, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.43, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.46, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.48, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.52, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.54, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.57, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.60, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.63, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.03, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.06, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.08, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.11, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.14, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.17, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.20, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.22, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.25, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.28, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.31, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.33, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.36, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.39, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.41, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.44, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.47, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.50, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.52, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.55, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.58, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.60, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.63, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.66, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.86, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.04, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.06, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.09, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.12, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.15, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.18, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.21, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.24, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.27, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.30, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.32, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.35, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.38, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.41, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.44, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.46, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.49, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.53, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.56, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.58, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.62, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.04, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.07, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.09, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.12, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.14, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.17, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.20, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.23, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.26, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.29, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.32, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.35, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.38, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.41, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.44, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.47, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.50, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.53, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.56, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.59, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.61, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.64, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.66, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.69, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.71, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.74, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.76, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.80, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.03, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.05, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.08, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.17, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.22, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.25, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.28, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.30, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.33, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.35, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.38, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.41, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.44, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.46, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.49, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.52, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.54, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.57, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.59, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.62, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.64, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.67, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.70, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.72, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.75, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.77, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.81, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.03, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.05, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.08, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.10, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.13, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.15, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.18, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.21, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.24, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.27, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.29, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.48, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.04, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.07, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.10, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.12, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.15, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.17, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.20, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.22, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.25, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.27, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.29, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.32, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.35, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.38, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.40, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.43, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.45, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.48, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.51, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.53, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.56, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.59, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.62, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.64, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.67, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.70, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.73, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.03, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.05, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.08, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.10, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.13, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.16, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.19, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.21, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.24, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.27, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.30, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.33, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.35, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.39, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.41, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.44, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.47, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.49, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.52, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.54, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.57, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.61, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.63, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.66, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.68, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.71, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.03, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.05, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.08, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.11, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.14, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.16, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.19, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.22, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.24, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.27, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.30, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.32, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.35, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.37, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.40, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.42, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.45, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.48, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.51, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.54, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.57, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.59, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.61, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.64, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.66, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.69, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.72, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.74, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.02, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.05, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.10, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.13, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.16, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.18, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.21, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.24, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.27, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.29, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.32, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.34, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.37, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.40, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.43, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.45, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.48, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.51, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.54, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.56, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.59, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.61, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.64, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.66, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.69, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.71, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.74, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.77, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.79, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.82, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.03, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.05, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.08, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.10, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.14, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.17, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.19, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.21, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.24, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.26, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.29, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.32, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.34, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.37, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.40, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.43, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.45, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.48, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.52, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.55, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.57, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.60, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.63, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.66, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.68, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.71, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.74, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.76, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.79, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.03, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.05, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.08, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.10, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.14, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.17, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.19, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.22, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.25, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.27, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.30, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.33, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.35, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.37, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.40, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.43, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.46, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.48, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.52, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.55, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.58, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.61, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.64, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.03, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.06, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.09, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.12, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.14, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.17, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.19, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.22, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.25, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.28, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.31, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.34, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.36, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.39, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.41, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.43, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.46, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.48, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.51, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.53, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.56, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.59, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.62, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.64, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.73, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.04, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.06, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.09, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.11, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.13, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.16, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.19, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.22, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.24, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.27, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.29, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.32, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.35, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.37, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.40, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.43, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.46, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.49, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.51, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.54, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.57, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.59, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.62, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.65, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.67, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.70, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.03, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.06, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.08, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.11, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.13, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.16, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.18, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.21, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.23, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.25, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.28, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.30, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.33, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.35, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.37, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.41, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.44, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.47, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.50, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.52, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.54, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.57, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.60, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.63, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.65, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.68, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.71, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.03, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.06, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.09, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.11, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.15, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.18, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.21, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.23, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.26, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.28, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.30, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.33, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.36, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.38, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.41, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.44, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.46, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.49, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.51, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.55, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.58, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.60, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.63, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.65, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.68, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.71, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.73, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.76, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.78, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.80, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.83, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.85, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.02, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.05, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.08, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.11, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.14, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.16, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.18, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.21, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.24, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.26, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.29, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.31, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.34, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.36, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.38, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.41, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.43, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.46, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.49, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.53, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.56, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.59, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.61, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.63, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.66, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.68, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.71, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.73, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.76, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.78, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.02, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.05, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.07, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.10, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.13, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.15, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.17, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.20, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.22, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.25, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.28, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.30, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.33, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.36, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.38, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.40, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.43, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.46, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.48, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.51, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.54, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.56, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.58, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.61, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.63, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.66, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.68, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.71, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.73, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.76, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.02, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.05, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.07, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.10, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.12, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.15, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.17, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.20, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.22, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.25, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.27, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.29, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.32, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.35, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.38, 0.00)
+
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.41, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.44, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.46, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.49, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.52, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.56, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.03, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.05, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.08, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.10, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.13, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.15, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.17, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.20, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.22, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.25, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.28, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.30, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.49, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.04, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.06, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.09, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.12, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.14, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.18, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.20, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.23, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.26, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.29, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.32, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.35, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.37, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.40, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.42, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.46, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.49, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.52, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.54, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.56, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.59, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.61, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.64, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.66, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.69, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.71, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.74, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.03, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.05, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.08, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.10, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.12, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.15, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.18, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.20, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.23, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.25, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.27, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.30, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.32, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.35, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.38, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.41, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.44, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.46, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.49, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.52, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.55, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.57, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.60, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.62, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.65, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.68, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.03, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.05, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.08, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.11, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.14, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.17, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.19, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.22, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.24, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.28, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.31, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.33, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.36, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.39, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.41, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.44, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.47, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.50, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.53, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.55, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.58, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.60, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.62, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.65, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.67, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.69, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.72, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.74, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.77, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.80, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.03, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.06, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.10, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.13, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.15, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.23, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.26, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.30, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.33, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.36, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.38, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.40, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.43, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.45, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.48, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.51, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.53, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.56, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.58, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.61, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.63, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.66, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.68, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.71, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.73, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.76, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.78, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.80, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.83, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.85, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.03, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.06, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.08, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.11, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.13, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.15, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.18, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.20, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.23, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.25, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.28, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.30, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.33, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.35, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.37, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.40, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.43, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.45, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.48, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.51, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.53, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.56, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.58, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.60, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.63, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.65, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.68, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.70, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.73, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.75, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.78, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.81, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.04, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.07, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.09, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.11, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.14, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.16, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.18, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.21, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.24, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.26, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.29, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.32, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.35, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.38, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.40, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.43, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.46, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.48, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.51, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.53, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.56, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.59, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.62, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.65, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.03, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.06, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.08, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.11, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.20, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.24, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.27, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.30, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.32, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.35, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.37, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.40, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.42, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.44, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.47, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.49, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.52, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.54, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.57, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.59, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.62, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.65, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.68, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.70, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.73, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.75, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.78, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.02, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.05, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.07, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.09, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.12, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.14, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.17, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.20, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.22, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.25, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.27, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.30, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.32, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.35, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.37, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.39, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.42, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.44, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.47, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.49, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.51, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.54, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.57, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.60, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.63, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.65, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.68, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.71, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.03, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.05, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.08, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.10, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.13, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.15, 0.00)
+
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.18, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.20, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.22, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.25, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.27, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.31, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.33, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.35, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.38, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.40, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.43, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.45, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.48, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.51, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.54, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.03, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.06, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.08, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.10, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.13, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.17, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.20, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.22, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.25, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.28, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.30, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.33, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.35, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.38, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.40, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.43, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.46, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.49, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.51, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.54, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.57, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.60, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.62, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.64, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.67, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.70, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.03, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.05, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.08, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.11, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.13, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.16, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.18, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.20, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.23, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.26, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.29, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.31, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.34, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.36, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.39, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.41, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.43, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.46, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.48, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.51, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.53, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.56, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.58, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.61, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.63, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.66, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.69, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.03, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.05, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.08, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.11, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.14, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.16, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.19, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.21, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.24, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.26, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.29, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.31, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.34, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.36, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.39, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.42, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.44, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.46, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.49, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.51, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.53, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.56, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.58, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.62, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.04, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.07, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.10, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.14, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.17, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.20, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.23, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.25, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.29, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.32, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.34, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.37, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.41, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.45, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.48, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.51, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.55, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.03, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.05, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.08, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.10, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.14, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.17, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.20, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.24, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.28, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.31, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.34, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.37, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.42, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.45, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.49, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.05, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.09, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.13, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.17, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.21, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.24, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.44, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.06, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.13, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.17, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.21, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.25, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.31, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.36, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.39, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.43, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.47, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.52, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.05, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.09, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.13, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.19, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.23, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.27, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.32, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.36, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.41, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.04, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.08, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.12, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.17, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.21, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.26, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.30, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.34, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.38, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.42, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.46, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.50, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.06, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.10, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.14, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.17, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.21, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.25, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.30, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.36, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.04, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.09, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.13, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.16, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.20, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.24, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.30, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.36, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.05, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.09, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.15, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.20, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.26, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.31, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.35, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.39, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.44, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.50, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.07, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.12, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.16, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.21, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.26, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.30, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.35, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.38, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.46, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.07, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.10, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.13, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.16, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.19, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.22, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.25, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.28, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.31, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.34, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.38, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.41, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.44, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.47, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.50, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.53, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.56, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.59, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.62, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.65, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.68, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.71, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.73, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.77, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.03, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.06, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.09, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.12, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.16, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.19, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.22, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.24, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.27, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.30, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.33, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.36, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.39, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.43, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.46, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.49, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.52, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.55, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.58, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.61, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.64, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.03, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.06, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.10, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.13, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.17, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.20, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.23, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.26, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.28, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.32, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.35, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.38, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.41, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.44, 0.00)
+
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.47, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.49, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.52, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.55, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.58, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.60, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.63, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.66, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.69, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.71, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.74, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.03, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.05, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.08, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.11, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.13, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.16, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.19, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.21, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.24, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.26, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.29, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.31, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.34, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.36, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.39, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.41, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.44, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.46, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.48, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.51, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.53, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.55, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.58, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.61, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.64, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.66, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.69, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.71, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.73, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.76, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.78, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.81, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.83, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.85, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.02, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.05, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.07, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.10, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.12, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.15, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.18, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.20, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.23, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.25, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.28, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.31, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.33, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.36, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.38, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.41, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.43, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.46, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.48, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.51, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.55, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.03, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.13, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.17, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.19, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.22, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.25, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.28, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.30, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.33, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.35, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.38, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.41, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.44, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.47, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.49, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.52, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.54, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.57, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.59, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.62, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.64, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.67, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.69, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.72, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.74, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.77, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.80, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.03, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.05, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.08, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.11, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.14, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.17, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.20, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.22, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.25, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.28, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.31, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.33, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.36, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.39, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.42, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.44, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.46, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.49, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.51, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.54, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.56, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.59, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.61, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.64, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.66, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.69, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.71, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.74, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.76, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.79, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.03, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.05, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.08, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.11, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.14, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.16, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.19, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.22, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.24, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.26, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.29, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.31, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.34, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.37, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.40, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.43, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.46, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.48, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.51, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.53, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.56, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.58, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.60, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.63, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.65, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.68, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.70, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.73, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.76, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.78, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.03, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.06, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.09, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.11, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.14, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.16, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.19, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.21, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.24, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.27, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.31, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.35, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.38, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.41, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.44, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.47, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.49, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.53, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.55, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.58, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.60, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.63, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.66, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.68, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.71, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.74, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.02, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.20, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.03, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.06, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.08, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.11, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.14, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.17, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.19, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.22, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.25, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.28, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.31, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.34, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.36, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.39, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.42, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.45, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.47, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.50, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.52, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.55, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.58, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.61, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.64, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.67, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.70, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
+        (0.00,
+        -0.03, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.05, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.08, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.10, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.12, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.15, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.19, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.21, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.24, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.26, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.29, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.31, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.33, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.36, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.39, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.41, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.44, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.46, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.49, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.52, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.54, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.57, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.60, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.62, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.65, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.67, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.70, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.72, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.75, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.77, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.81, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        GroundMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.03, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.06, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.09, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.11, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.13, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.16, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.19, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.21, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.24, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.26, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.29, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.32, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.35, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.39, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.41, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.44, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.46, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.49, 0.00)
+
         GetMovementInput(0.00, 0.00)
+
+        AirMove
 
-        GetMovementInput(0.00,
-        0.00)
+        (0.00,
+        -0.51, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.53, 0.00)
+
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        AirMove
 
+        (0.00,
+        -0.71, 0.00)
+
         GetMovementInput(0.00, 0.00)
 
-        GetMovementInput(0.00,
-        0.00)
+        GroundMove
 
-        GetMovementInput(0.00, 0.00)
+        (0.00,
+        -0.05, 0.00)
 
 '
       stacktrace: 
@@ -4975,9 +10453,16 @@ MonoBehaviour:
       name: PlayMode.dll
       fullName: C:/Users/QUAKE LIVE/Documents/Movement-main/Library/ScriptAssemblies/PlayMode.dll
       resultStatus: 1
-      duration: 0.1486383
+      duration: 0.2394036
       messages: 
-      output: 
+      output: 'GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00, -0.20,
+        0.00)
+
+'
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -4991,9 +10476,16 @@ MonoBehaviour:
       name: Q3PlayerControllerPlayModeTests
       fullName: Q3PlayerControllerPlayModeTests
       resultStatus: 1
-      duration: 0.1432353
+      duration: 0.235891
       messages: 
-      output: 
+      output: 'GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.05, 0.00)
+
+'
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -5007,13 +10499,13 @@ MonoBehaviour:
       name: Q3PlayerController_GravityTest
       fullName: Q3PlayerControllerPlayModeTests.Q3PlayerController_GravityTest
       resultStatus: 1
-      duration: 0.0882916
+      duration: 0.1862994
       messages: 
       output: 'GetMovementInput(0.00, 0.00)
 
         AirMove
 
-        (0.00, 0.00,
+        (0.00, -3.29,
         0.00)
 
         GetMovementInput(0.00, 0.00)
@@ -5025,10 +10517,38 @@ MonoBehaviour:
 
         GetMovementInput(0.00, 0.00)
 
+        GroundMove
+
+        (0.00,
+        -0.21, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        0.00, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.12, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
         AirMove
 
         (0.00,
         -0.33, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.19, 0.00)
 
         GetMovementInput(0.00, 0.00)
 
@@ -5054,13 +10574,13 @@ MonoBehaviour:
       name: Q3PlayerController_MoveBackwardTest
       fullName: Q3PlayerControllerPlayModeTests.Q3PlayerController_MoveBackwardTest
       resultStatus: 1
-      duration: 0.0075184
+      duration: 0.0110606
       messages: 
       output: 'GetMovementInput(0.00, 0.00)
 
         AirMove
 
-        (0.00, 0.00,
+        (0.00, -0.36,
         0.00)
 
         GetMovementInput(0.00, 0.00)
@@ -5070,12 +10590,40 @@ MonoBehaviour:
         (0.00,
         0.00, 0.00)
 
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.05, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        0.00, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.10, 0.00)
+
         GetMovementInput(0.00, -1.00)
 
         AirMove
 
         (0.00,
         -0.33, -0.23)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.13, 0.00)
 
         GetMovementInput(0.00, -1.00)
 
@@ -5102,13 +10650,13 @@ MonoBehaviour:
       name: Q3PlayerController_MoveForwardTest
       fullName: Q3PlayerControllerPlayModeTests.Q3PlayerController_MoveForwardTest
       resultStatus: 1
-      duration: 0.0121069
+      duration: 0.0100166
       messages: 
       output: 'GetMovementInput(0.00, 0.00)
 
         AirMove
 
-        (0.00, 0.00,
+        (0.00, -0.21,
         0.00)
 
         GetMovementInput(0.00, 0.00)
@@ -5118,12 +10666,40 @@ MonoBehaviour:
         (0.00,
         0.00, 0.00)
 
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.25, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        0.00, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.30, 0.00)
+
         GetMovementInput(0.00, 1.00)
 
         AirMove
 
         (0.00,
         -0.33, 0.23)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.34, 0.00)
 
         GetMovementInput(0.00, 1.00)
 
@@ -5149,13 +10725,13 @@ MonoBehaviour:
       name: Q3PlayerController_MoveLeftTest
       fullName: Q3PlayerControllerPlayModeTests.Q3PlayerController_MoveLeftTest
       resultStatus: 1
-      duration: 0.0148951
+      duration: 0.0147376
       messages: 
       output: 'GetMovementInput(0.00, 0.00)
 
         AirMove
 
-        (0.00, 0.00,
+        (0.00, -0.41,
         0.00)
 
         GetMovementInput(0.00, 0.00)
@@ -5165,12 +10741,40 @@ MonoBehaviour:
         (0.00,
         0.00, 0.00)
 
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.05, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        0.00, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.10, 0.00)
+
         GetMovementInput(-1.00, 0.00)
 
         AirMove
 
         (-0.84,
         -0.33, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.14, 0.00)
 
         GetMovementInput(-1.00, 0.00)
 
@@ -5197,13 +10801,13 @@ MonoBehaviour:
       name: Q3PlayerController_MoveRightTest
       fullName: Q3PlayerControllerPlayModeTests.Q3PlayerController_MoveRightTest
       resultStatus: 1
-      duration: 0.0114315
+      duration: 0.0104851
       messages: 
       output: 'GetMovementInput(0.00, 0.00)
 
         AirMove
 
-        (0.00, 0.00,
+        (0.00, -0.30,
         0.00)
 
         GetMovementInput(0.00, 0.00)
@@ -5213,12 +10817,40 @@ MonoBehaviour:
         (0.00,
         0.00, 0.00)
 
+        GetMovementInput(0.00, 0.00)
+
+        GroundMove
+
+        (0.00,
+        -0.04, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        0.00, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.09, 0.00)
+
         GetMovementInput(1.00, 0.00)
 
         AirMove
 
         (0.84,
         -0.33, 0.00)
+
+        GetMovementInput(0.00, 0.00)
+
+        AirMove
+
+        (0.00,
+        -0.14, 0.00)
 
         GetMovementInput(1.00, 0.00)
 
@@ -5239,10 +10871,19 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1005
       parentUniqueId: PlayMode.dll/[PlayMode][Q3PlayerControllerPlayModeTests][suite]
-    m_ResultText: PlayMode.dll (0,149s)
+    m_ResultText: 'PlayMode.dll (0,239s)
+
+      ---
+
+      GetMovementInput(0.00,
+      0.00)
+
+      AirMove
+
+      (0.00, -0.20, 0.00)'
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 17}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 382b84db
       m_LastClickedID: -612095176
       m_ExpandedIDs: 0896d5beae19ecbe382b84db3d8ef2eee4863f48ffffff7f
@@ -5280,7 +10921,7 @@ MonoBehaviour:
       name: Movement
       fullName: Movement
       resultStatus: 1
-      duration: 0.1148709
+      duration: 0.0118659
       messages: 
       output: 
       stacktrace: 
@@ -5291,12 +10932,12 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1016
-      uniqueId: '[EditMode.dll][suite]'
+    - id: 1003
+      uniqueId: '[EditMode][C:/Users/QUAKE LIVE/Documents/Movement-main/Library/ScriptAssemblies/EditMode.dll][suite]'
       name: EditMode.dll
       fullName: C:/Users/QUAKE LIVE/Documents/Movement-main/Library/ScriptAssemblies/EditMode.dll
       resultStatus: 1
-      duration: 0.1095646
+      duration: 0.009023
       messages: 
       output: 
       stacktrace: 
@@ -5305,46 +10946,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1013
+      parentId: 1000
       parentUniqueId: '[Movement][suite]'
-    - id: 1017
-      uniqueId: EditMode.dll/[Q3Movement][suite]
-      name: Q3Movement
-      fullName: Q3Movement
-      resultStatus: 1
-      duration: 0.1088364
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1016
-      parentUniqueId: '[EditMode.dll][suite]'
-    - id: 1018
-      uniqueId: EditMode.dll/Q3Movement/[EditMode][Q3Movement.Tests][suite]
-      name: Tests
-      fullName: Q3Movement.Tests
-      resultStatus: 1
-      duration: 0.1056434
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1017
-      parentUniqueId: EditMode.dll/[Q3Movement][suite]
     - id: 1001
-      uniqueId: EditMode.dll/Q3Movement/Tests/[EditMode][Q3Movement.Tests.Q3PlayerControllerEditModeTests][suite]
-      name: Q3PlayerControllerEditModeTests
-      fullName: Q3Movement.Tests.Q3PlayerControllerEditModeTests
+      uniqueId: EditMode.dll/[EditMode][FirstPersonControllerEditModeTests][suite]
+      name: FirstPersonControllerEditModeTests
+      fullName: FirstPersonControllerEditModeTests
       resultStatus: 1
-      duration: 0.1009581
+      duration: 0.0048189
       messages: 
       output: 
       stacktrace: 
@@ -5353,37 +10962,17 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1005
-      parentUniqueId: EditMode.dll/Q3Movement/[EditMode][Q3Movement.Tests][suite]
-    - id: 1003
-      uniqueId: EditMode.dll/Q3Movement/Tests/Q3PlayerControllerEditModeTests/[EditMode][Q3Movement.Tests.Q3PlayerControllerEditModeTests.GroundMove_Start_Stop_Test]
-      name: GroundMove_Start_Stop_Test
-      fullName: Q3Movement.Tests.Q3PlayerControllerEditModeTests.GroundMove_Start_Stop_Test
-      resultStatus: 2
-      duration: 0.0749975
-      messages: "NSubstitute.Exceptions.CouldNotSetReturnDueToNoLastCallException
-        : Could not find a call to return from.\n\nMake sure you called Returns()
-        after calling your substitute (for example: mySub.SomeMethod().Returns(value)),\nand
-        that you are not configuring other substitutes within Returns() (for example,
-        avoid this: mySub.SomeMethod().Returns(ConfigOtherSub())).\n\nIf you substituted
-        for a class rather than an interface, check that the call to your substitute
-        was on a virtual/abstract member.\nReturn values cannot be configured for
-        non-virtual/non-abstract members.\n\nCorrect use:\n\tmySub.SomeMethod().Returns(returnValue);\n\nPotentially
-        problematic use:\n\tmySub.SomeMethod().Returns(ConfigOtherSub());\nInstead
-        try:\n\tvar returnValue = ConfigOtherSub();\n\tmySub.SomeMethod().Returns(returnValue);\n"
+      parentId: 1003
+      parentUniqueId: '[EditMode][C:/Users/QUAKE LIVE/Documents/Movement-main/Library/ScriptAssemblies/EditMode.dll][suite]'
+    - id: 1002
+      uniqueId: EditMode.dll/FirstPersonControllerEditModeTests/[EditMode][FirstPersonControllerEditModeTests.FirstPersonControllerPrefab_HasRequiredComponents]
+      name: FirstPersonControllerPrefab_HasRequiredComponents
+      fullName: FirstPersonControllerEditModeTests.FirstPersonControllerPrefab_HasRequiredComponents
+      resultStatus: 1
+      duration: 0.0001092
+      messages: 
       output: 
-      stacktrace: "  at NSubstitute.Core.SubstitutionContext.LastCallShouldReturn
-        (NSubstitute.Core.IReturn value, NSubstitute.Core.MatchArgs matchArgs) [0x00016]
-        in <50dda344d6bd4a879a4d665307b5d143>:0 \r\n  at NSubstitute.SubstituteExtensions.Returns[T]
-        (NSubstitute.Core.MatchArgs matchArgs, T returnThis, T[] returnThese) [0x00043]
-        in <50dda344d6bd4a879a4d665307b5d143>:0 \r\n  at NSubstitute.SubstituteExtensions.Returns[T]
-        (T value, T returnThis, T[] returnThese) [0x00000] in <50dda344d6bd4a879a4d665307b5d143>:0
-        \r\n  at Q3Movement.Tests.Q3PlayerControllerEditModeTests.GroundMove_Start_Stop_Test
-        () [0x0005f] in C:\\Users\\QUAKE LIVE\\Documents\\Movement-main\\Assets\\Tests\\EditMode\\Q3PlayerControllerEditModeTests.cs:50
-        \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -5391,61 +10980,14 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentId: 1001
-      parentUniqueId: EditMode.dll/Q3Movement/Tests/[EditMode][Q3Movement.Tests.Q3PlayerControllerEditModeTests][suite]
-    m_ResultText: 'ApplyGravity_Test (0,093s)
-
-      ---
-
-      GetMovementInput(0.00,
-      0.00)
-
-      AirMove
-
-      (0.00, -0.32, 0.00)
-
-      -0.005120001
-
-      GetMovementInput(0.00,
-      0.00)
-
-      AirMove
-
-      (0.00, -0.64, 0.00)
-
-      -0.01536
-
-      GetMovementInput(0.00,
-      0.00)
-
-      AirMove
-
-      (0.00, -0.96, 0.00)
-
-      -0.03072
-
-      GetMovementInput(0.00,
-      0.00)
-
-      AirMove
-
-      (0.00, -1.28, 0.00)
-
-      -0.05120001
-
-      GetMovementInput(0.00,
-      0.00)
-
-      AirMove
-
-      (0.00, -1.60, 0.00)
-
-      -0.07680001'
+      parentUniqueId: EditMode.dll/[EditMode][FirstPersonControllerEditModeTests][suite]
+    m_ResultText: Movement (0,012s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 77631634
-      m_LastClickedID: 873882487
-      m_ExpandedIDs: 34023bb10896d5be958582d2382b84db3d8ef2ee352c410dea7a122b4b5ea47cffffff7f
+      m_SelectedIDs: 3d8ef2ee
+      m_LastClickedID: -286093763
+      m_ExpandedIDs: 34023bb10896d5be958582d2382b84db3d8ef2ee352c410dea7a122b0c3848391864624d4b5ea47cffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

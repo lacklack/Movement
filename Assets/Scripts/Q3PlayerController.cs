@@ -25,6 +25,7 @@ namespace Q3Movement {
         public float MaxAirSpeed { get { return m_AirSettings.MaxSpeed; } }
         public float MaxGroundSpeed { get { return m_GroundSettings.MaxSpeed; } }
 
+
         public IInputProvider InputProvider {
             get { return m_InputProvider; }
             set { m_InputProvider = value; }

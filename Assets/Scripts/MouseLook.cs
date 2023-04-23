@@ -69,7 +69,7 @@ namespace Q3Movement
 
         public void UpdateCursorLock()
         {
-            //if the user set "lockCursor" we check & properly lock the cursos
+            //if the user set "lockCursor" we check & properly lock the cursor
             if (m_LockCursor)
             {
                 InternalLockUpdate();
